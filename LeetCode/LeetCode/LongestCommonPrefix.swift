@@ -14,16 +14,21 @@ class LongestCommonPrefix{
         if allStrings.count < 2{
             return allStrings.first!
         }
+        // get Shortest String in the array
         let shortestStringIndex = getShortestStringIndex(in: strs)
         let shortestString = allStrings.remove(at: shortestStringIndex)
+        
+        // if the whole shortest array is actually the longestCommonPrefix
         if allStringsContains(shortestString, strings: allStrings){
             return shortestString
         }
         let otherStringsArray = allStrings
         var longestCommonPrefix = ""
-        
+        // find the lonesgtCommonPrefix among otherStrings
         for character in shortestString{
+            // prefix =  currentCommonPrefix + newNextcharacter in the shortest string
             let prefix = "\(longestCommonPrefix)\(character)"
+            // check if all strings have that longer prefix
             let isInAllStrings = allStringsContains(prefix, strings: otherStringsArray)
             if isInAllStrings {
                 longestCommonPrefix.append(character)
@@ -34,7 +39,7 @@ class LongestCommonPrefix{
         return longestCommonPrefix
     }
     
-
+    
     
     private func allStringsContains(_ prefix:String , strings:[String])->Bool{
         
@@ -55,20 +60,20 @@ class LongestCommonPrefix{
         return true
     }
     
-        private func getShortestStringIndex(in strings:[String]) -> Int{
-            var minLength = strings.first!.count
-            var minStringIndex = 0
-            var index = 0
-            for str in strings{
-                if str.count < minLength {
-                    minLength = str.count
-                    minStringIndex = index
-                }
-    
-                index += 1
+    private func getShortestStringIndex(in strings:[String]) -> Int{
+        var minLength = strings.first!.count
+        var minStringIndex = 0
+        var index = 0
+        for str in strings{
+            if str.count < minLength {
+                minLength = str.count
+                minStringIndex = index
             }
-    
-            return minStringIndex
+            
+            index += 1
         }
+        
+        return minStringIndex
+    }
     
 }
