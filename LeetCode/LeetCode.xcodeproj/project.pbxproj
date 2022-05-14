@@ -19,6 +19,8 @@
 		F8DFC2322830060A0016068B /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC2312830060A0016068B /* TwoSumTests.swift */; };
 		F8DFC23828300E020016068B /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC23728300E020016068B /* PalindromeNumber.swift */; };
 		F8DFC23A28300E1F0016068B /* PalindromeNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC23928300E1F0016068B /* PalindromeNumberTests.swift */; };
+		F8DFC23C28300EC40016068B /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC23B28300EC40016068B /* LongestCommonPrefix.swift */; };
+		F8DFC23E28301D720016068B /* LongestCommonPrefixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC23D28301D720016068B /* LongestCommonPrefixTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		F8DFC2312830060A0016068B /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		F8DFC23728300E020016068B /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		F8DFC23928300E1F0016068B /* PalindromeNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberTests.swift; sourceTree = "<group>"; };
+		F8DFC23B28300EC40016068B /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		F8DFC23D28301D720016068B /* LongestCommonPrefixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				F8DFC23728300E020016068B /* PalindromeNumber.swift */,
 				F8DFC226282E657F0016068B /* AddTwoNumbers.swift */,
 				F8DFC228282E68EB0016068B /* MultiplyStrings.swift */,
+				F8DFC23B28300EC40016068B /* LongestCommonPrefix.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -114,6 +119,7 @@
 				F8DFC22A282E70980016068B /* MultiplyStringsTests.swift */,
 				F8DFC2312830060A0016068B /* TwoSumTests.swift */,
 				F8DFC23928300E1F0016068B /* PalindromeNumberTests.swift */,
+				F8DFC23D28301D720016068B /* LongestCommonPrefixTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				F8DFC230283001F30016068B /* TwoSum.swift in Sources */,
 				F8DFC23828300E020016068B /* PalindromeNumber.swift in Sources */,
 				F8DFC227282E657F0016068B /* AddTwoNumbers.swift in Sources */,
+				F8DFC23C28300EC40016068B /* LongestCommonPrefix.swift in Sources */,
 				F8DFC20E282E654B0016068B /* ContentView.swift in Sources */,
 				F8DFC229282E68EB0016068B /* MultiplyStrings.swift in Sources */,
 				F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */,
@@ -232,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8DFC22B282E70980016068B /* MultiplyStringsTests.swift in Sources */,
+				F8DFC23E28301D720016068B /* LongestCommonPrefixTests.swift in Sources */,
 				F8DFC23A28300E1F0016068B /* PalindromeNumberTests.swift in Sources */,
 				F8DFC220282E65610016068B /* AddTwoNumbersTests.swift in Sources */,
 				F8DFC2322830060A0016068B /* TwoSumTests.swift in Sources */,
