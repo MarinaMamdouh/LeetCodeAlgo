@@ -12,6 +12,8 @@
 		F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A09C2833B3E40042BB70 /* LinkedList.swift */; };
 		F858A09F2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A09E2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift */; };
 		F858A0A12836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0A02836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift */; };
+		F858A0A32836D1410042BB70 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0A22836D1410042BB70 /* RemoveElement.swift */; };
+		F858A0A52836D2340042BB70 /* RemoveElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0A42836D2340042BB70 /* RemoveElementTests.swift */; };
 		F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */; };
 		F85C06492832DEAA00C7C1D1 /* ValidParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C06482832DEAA00C7C1D1 /* ValidParenthesesTests.swift */; };
 		F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20B282E654B0016068B /* LeetCodeApp.swift */; };
@@ -46,6 +48,8 @@
 		F858A09C2833B3E40042BB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F858A09E2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesSortedArray.swift; sourceTree = "<group>"; };
 		F858A0A02836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesSortedArrayTests.swift; sourceTree = "<group>"; };
+		F858A0A22836D1410042BB70 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		F858A0A42836D2340042BB70 /* RemoveElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElementTests.swift; sourceTree = "<group>"; };
 		F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		F85C06482832DEAA00C7C1D1 /* ValidParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTests.swift; sourceTree = "<group>"; };
 		F8DFC208282E654B0016068B /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +128,7 @@
 				F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */,
 				F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */,
 				F858A09E2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift */,
+				F858A0A22836D1410042BB70 /* RemoveElement.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -149,6 +154,7 @@
 				F85C06482832DEAA00C7C1D1 /* ValidParenthesesTests.swift */,
 				F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */,
 				F858A0A02836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift */,
+				F858A0A42836D2340042BB70 /* RemoveElementTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			files = (
 				F8DFC230283001F30016068B /* TwoSum.swift in Sources */,
 				F858A09F2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift in Sources */,
+				F858A0A32836D1410042BB70 /* RemoveElement.swift in Sources */,
 				F8DFC23828300E020016068B /* PalindromeNumber.swift in Sources */,
 				F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */,
 				F8DFC227282E657F0016068B /* AddTwoNumbers.swift in Sources */,
@@ -272,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F858A0A12836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift in Sources */,
+				F858A0A52836D2340042BB70 /* RemoveElementTests.swift in Sources */,
 				F8DFC22B282E70980016068B /* MultiplyStringsTests.swift in Sources */,
 				F8DFC23E28301D720016068B /* LongestCommonPrefixTests.swift in Sources */,
 				F8DFC23A28300E1F0016068B /* PalindromeNumberTests.swift in Sources */,
