@@ -26,6 +26,8 @@
 		F873DD9B2837BAA3001D7CBE /* MaxSubArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */; };
 		F873DD9D2837C664001D7CBE /* LengthLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD9C2837C664001D7CBE /* LengthLastWord.swift */; };
 		F873DD9F2837C7F5001D7CBE /* LengthLastWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */; };
+		F873DDA12837D8C9001D7CBE /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DDA02837D8C9001D7CBE /* PlusOne.swift */; };
+		F873DDA32837DAA7001D7CBE /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */; };
 		F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20B282E654B0016068B /* LeetCodeApp.swift */; };
 		F8DFC20E282E654B0016068B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20D282E654B0016068B /* ContentView.swift */; };
 		F8DFC210282E654E0016068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DFC20F282E654E0016068B /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArrayTests.swift; sourceTree = "<group>"; };
 		F873DD9C2837C664001D7CBE /* LengthLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthLastWord.swift; sourceTree = "<group>"; };
 		F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthLastWordTests.swift; sourceTree = "<group>"; };
+		F873DDA02837D8C9001D7CBE /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
 		F8DFC208282E654B0016068B /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DFC20B282E654B0016068B /* LeetCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeApp.swift; sourceTree = "<group>"; };
 		F8DFC20D282E654B0016068B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				F858A0AA2836E2620042BB70 /* SearchInsertPosition.swift */,
 				F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */,
 				F873DD9C2837C664001D7CBE /* LengthLastWord.swift */,
+				F873DDA02837D8C9001D7CBE /* PlusOne.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -201,6 +206,7 @@
 				F858A0B42836F3AE0042BB70 /* BinarySearchTests.swift */,
 				F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */,
 				F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */,
+				F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				F8DFC229282E68EB0016068B /* MultiplyStrings.swift in Sources */,
 				F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */,
 				F858A0B12836F29A0042BB70 /* BinarySearch.swift in Sources */,
+				F873DDA12837D8C9001D7CBE /* PlusOne.swift in Sources */,
 				F873DD9D2837C664001D7CBE /* LengthLastWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +348,7 @@
 				F85C06492832DEAA00C7C1D1 /* ValidParenthesesTests.swift in Sources */,
 				F8DFC220282E65610016068B /* AddTwoNumbersTests.swift in Sources */,
 				F873DD9B2837BAA3001D7CBE /* MaxSubArrayTests.swift in Sources */,
+				F873DDA32837DAA7001D7CBE /* PlusOneTests.swift in Sources */,
 				F858A0AD2836E30B0042BB70 /* SearchInsertPositionTests.swift in Sources */,
 				F8DFC2322830060A0016068B /* TwoSumTests.swift in Sources */,
 			);
