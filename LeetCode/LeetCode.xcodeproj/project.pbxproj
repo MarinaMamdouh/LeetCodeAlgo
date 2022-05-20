@@ -22,6 +22,8 @@
 		F858A0B52836F3AE0042BB70 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0B42836F3AE0042BB70 /* BinarySearchTests.swift */; };
 		F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */; };
 		F85C06492832DEAA00C7C1D1 /* ValidParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C06482832DEAA00C7C1D1 /* ValidParenthesesTests.swift */; };
+		F873DD992837B1F3001D7CBE /* MaximumSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */; };
+		F873DD9B2837BAA3001D7CBE /* MaxSubArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */; };
 		F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20B282E654B0016068B /* LeetCodeApp.swift */; };
 		F8DFC20E282E654B0016068B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20D282E654B0016068B /* ContentView.swift */; };
 		F8DFC210282E654E0016068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DFC20F282E654E0016068B /* Assets.xcassets */; };
@@ -64,6 +66,8 @@
 		F858A0B42836F3AE0042BB70 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		F85C06482832DEAA00C7C1D1 /* ValidParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTests.swift; sourceTree = "<group>"; };
+		F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubArray.swift; sourceTree = "<group>"; };
+		F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArrayTests.swift; sourceTree = "<group>"; };
 		F8DFC208282E654B0016068B /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DFC20B282E654B0016068B /* LeetCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeApp.swift; sourceTree = "<group>"; };
 		F8DFC20D282E654B0016068B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				F858A0A22836D1410042BB70 /* RemoveElement.swift */,
 				F858A0A62836D3FD0042BB70 /* strStrMethod.swift */,
 				F858A0AA2836E2620042BB70 /* SearchInsertPosition.swift */,
+				F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -189,6 +194,7 @@
 				F858A0A82836D70B0042BB70 /* strStrMethodTests.swift */,
 				F858A0AC2836E30B0042BB70 /* SearchInsertPositionTests.swift */,
 				F858A0B42836F3AE0042BB70 /* BinarySearchTests.swift */,
+				F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				F8DFC23828300E020016068B /* PalindromeNumber.swift in Sources */,
 				F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */,
 				F8DFC227282E657F0016068B /* AddTwoNumbers.swift in Sources */,
+				F873DD992837B1F3001D7CBE /* MaximumSubArray.swift in Sources */,
 				F858A0A72836D3FD0042BB70 /* strStrMethod.swift in Sources */,
 				F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */,
 				F858A0982833AD390042BB70 /* MergeTwoSortedLists.swift in Sources */,
@@ -325,6 +332,7 @@
 				F858A09A2833B2D70042BB70 /* MergeTwoSortedListsTests.swift in Sources */,
 				F85C06492832DEAA00C7C1D1 /* ValidParenthesesTests.swift in Sources */,
 				F8DFC220282E65610016068B /* AddTwoNumbersTests.swift in Sources */,
+				F873DD9B2837BAA3001D7CBE /* MaxSubArrayTests.swift in Sources */,
 				F858A0AD2836E30B0042BB70 /* SearchInsertPositionTests.swift in Sources */,
 				F8DFC2322830060A0016068B /* TwoSumTests.swift in Sources */,
 			);
