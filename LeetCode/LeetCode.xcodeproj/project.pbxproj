@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80FA2AE283C19DE0017B005 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2AD283C19DE0017B005 /* AddBinary.swift */; };
+		F80FA2B0283C1E190017B005 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2AF283C1E190017B005 /* AddBinaryTests.swift */; };
 		F858A0982833AD390042BB70 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */; };
 		F858A09A2833B2D70042BB70 /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */; };
 		F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A09C2833B3E40042BB70 /* LinkedList.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F80FA2AD283C19DE0017B005 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		F80FA2AF283C1E190017B005 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
 		F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
 		F858A09C2833B3E40042BB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 				F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */,
 				F873DD9C2837C664001D7CBE /* LengthLastWord.swift */,
 				F873DDA02837D8C9001D7CBE /* PlusOne.swift */,
+				F80FA2AD283C19DE0017B005 /* AddBinary.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -207,6 +212,7 @@
 				F873DD9A2837BAA3001D7CBE /* MaxSubArrayTests.swift */,
 				F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */,
 				F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */,
+				F80FA2AF283C1E190017B005 /* AddBinaryTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -327,6 +333,7 @@
 				F8DFC229282E68EB0016068B /* MultiplyStrings.swift in Sources */,
 				F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */,
 				F858A0B12836F29A0042BB70 /* BinarySearch.swift in Sources */,
+				F80FA2AE283C19DE0017B005 /* AddBinary.swift in Sources */,
 				F873DDA12837D8C9001D7CBE /* PlusOne.swift in Sources */,
 				F873DD9D2837C664001D7CBE /* LengthLastWord.swift in Sources */,
 			);
@@ -336,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80FA2B0283C1E190017B005 /* AddBinaryTests.swift in Sources */,
 				F858A0A92836D70B0042BB70 /* strStrMethodTests.swift in Sources */,
 				F858A0A12836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift in Sources */,
 				F858A0A52836D2340042BB70 /* RemoveElementTests.swift in Sources */,
