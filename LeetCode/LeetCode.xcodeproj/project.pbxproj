@@ -12,6 +12,7 @@
 		F80FA2B2283C22C70017B005 /* sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2B1283C22C70017B005 /* sqrt(x).swift */; };
 		F80FA2B4283C23200017B005 /* SquareRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2B3283C23200017B005 /* SquareRootTests.swift */; };
 		F84DB2A628412FE5008D6A19 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */; };
+		F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A72841380F008D6A19 /* MajorityElement.swift */; };
 		F858A0982833AD390042BB70 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */; };
 		F858A09A2833B2D70042BB70 /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */; };
 		F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A09C2833B3E40042BB70 /* LinkedList.swift */; };
@@ -65,6 +66,7 @@
 		F80FA2B1283C22C70017B005 /* sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sqrt(x).swift"; sourceTree = "<group>"; };
 		F80FA2B3283C23200017B005 /* SquareRootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRootTests.swift; sourceTree = "<group>"; };
 		F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
+		F84DB2A72841380F008D6A19 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
 		F858A09C2833B3E40042BB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				F80FA2AD283C19DE0017B005 /* AddBinary.swift */,
 				F80FA2B1283C22C70017B005 /* sqrt(x).swift */,
 				F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */,
+				F84DB2A72841380F008D6A19 /* MajorityElement.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -337,6 +340,7 @@
 				F873DD992837B1F3001D7CBE /* MaximumSubArray.swift in Sources */,
 				F858A0A72836D3FD0042BB70 /* strStrMethod.swift in Sources */,
 				F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */,
+				F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */,
 				F858A0982833AD390042BB70 /* MergeTwoSortedLists.swift in Sources */,
 				F8DFC23C28300EC40016068B /* LongestCommonPrefix.swift in Sources */,
 				F8DFC20E282E654B0016068B /* ContentView.swift in Sources */,
