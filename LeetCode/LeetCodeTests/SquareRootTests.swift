@@ -22,7 +22,7 @@ class SquareRootTests: XCTestCase {
         XCTAssertEqual(result, 2)
     }
     
-    func testExample2() throws {
+    func testExample3() throws {
         let x = 8
         let result = problem.mySqrt(x)
         XCTAssertEqual(result, 2)
