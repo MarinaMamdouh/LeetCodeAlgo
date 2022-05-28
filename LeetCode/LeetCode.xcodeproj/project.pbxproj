@@ -13,6 +13,8 @@
 		F80FA2B4283C23200017B005 /* SquareRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2B3283C23200017B005 /* SquareRootTests.swift */; };
 		F84DB2A628412FE5008D6A19 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */; };
 		F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A72841380F008D6A19 /* MajorityElement.swift */; };
+		F84DB2AA28413A2A008D6A19 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */; };
+		F84DB2AC2842A2B2008D6A19 /* Pascal's Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */; };
 		F858A0982833AD390042BB70 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */; };
 		F858A09A2833B2D70042BB70 /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */; };
 		F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858A09C2833B3E40042BB70 /* LinkedList.swift */; };
@@ -67,6 +69,8 @@
 		F80FA2B3283C23200017B005 /* SquareRootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRootTests.swift; sourceTree = "<group>"; };
 		F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		F84DB2A72841380F008D6A19 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
+		F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal's Triangle.swift"; sourceTree = "<group>"; };
 		F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		F858A0992833B2D70042BB70 /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
 		F858A09C2833B3E40042BB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 		F8DFC1FF282E654B0016068B = {
 			isa = PBXGroup;
 			children = (
+				F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */,
 				F8DFC20A282E654B0016068B /* LeetCode */,
 				F8DFC21E282E65610016068B /* LeetCodeTests */,
 				F8DFC209282E654B0016068B /* Products */,
@@ -191,6 +196,7 @@
 				F80FA2B1283C22C70017B005 /* sqrt(x).swift */,
 				F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */,
 				F84DB2A72841380F008D6A19 /* MajorityElement.swift */,
+				F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
@@ -338,6 +344,7 @@
 				F858A09D2833B3E40042BB70 /* LinkedList.swift in Sources */,
 				F8DFC227282E657F0016068B /* AddTwoNumbers.swift in Sources */,
 				F873DD992837B1F3001D7CBE /* MaximumSubArray.swift in Sources */,
+				F84DB2AA28413A2A008D6A19 /* ClimbingStairs.swift in Sources */,
 				F858A0A72836D3FD0042BB70 /* strStrMethod.swift in Sources */,
 				F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */,
 				F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */,
@@ -350,6 +357,7 @@
 				F80FA2AE283C19DE0017B005 /* AddBinary.swift in Sources */,
 				F873DDA12837D8C9001D7CBE /* PlusOne.swift in Sources */,
 				F84DB2A628412FE5008D6A19 /* LinkedListCycle.swift in Sources */,
+				F84DB2AC2842A2B2008D6A19 /* Pascal's Triangle.swift in Sources */,
 				F873DD9D2837C664001D7CBE /* LengthLastWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
