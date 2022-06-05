@@ -17,4 +17,28 @@ public class TreeNode {
         self.left = left
         self.right = right
     }
+    func convertToArray()->[Int]{
+        if left == nil && right == nil{
+            return [val]
+        }
+        var array = [Int]()
+        array.append(val)
+        let leftArray = left?.convertToArray()
+        let rightArray =  right?.convertToArray()
+        array.append(contentsOf: leftArray ?? [])
+        array.append(contentsOf: rightArray ?? [])
+        return array
+    }
+    
+//    static func getLinkedList(from array:[Int])-> ListNode?{
+//        var ourArray =  array
+//        var tree:TreeNode? = nil
+//        if !ourArray.isEmpty{
+//            tree = TreeNode(ourArray.first!)
+//            ourArray.removeFirst()
+//            tree?.left = getLinkedList(from: ourArray)
+//            tree?.right =  getLinkedList(from: <#T##[Int]#>)
+//        }
+//        return linkedList
+//    }
 }
