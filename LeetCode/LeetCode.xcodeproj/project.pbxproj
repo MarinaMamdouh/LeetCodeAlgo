@@ -45,6 +45,8 @@
 		F873DD9F2837C7F5001D7CBE /* LengthLastWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */; };
 		F873DDA12837D8C9001D7CBE /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DDA02837D8C9001D7CBE /* PlusOne.swift */; };
 		F873DDA32837DAA7001D7CBE /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */; };
+		F8BB027E2850E22000228CD7 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB027D2850E22000228CD7 /* SymmetricTree.swift */; };
+		F8BB02802850E3C000228CD7 /* SymmetricTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB027F2850E3C000228CD7 /* SymmetricTreeTests.swift */; };
 		F8DFC20C282E654B0016068B /* LeetCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20B282E654B0016068B /* LeetCodeApp.swift */; };
 		F8DFC20E282E654B0016068B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFC20D282E654B0016068B /* ContentView.swift */; };
 		F8DFC210282E654E0016068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DFC20F282E654E0016068B /* Assets.xcassets */; };
@@ -110,6 +112,8 @@
 		F873DD9E2837C7F5001D7CBE /* LengthLastWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthLastWordTests.swift; sourceTree = "<group>"; };
 		F873DDA02837D8C9001D7CBE /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		F873DDA22837DAA7001D7CBE /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
+		F8BB027D2850E22000228CD7 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		F8BB027F2850E3C000228CD7 /* SymmetricTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTreeTests.swift; sourceTree = "<group>"; };
 		F8DFC208282E654B0016068B /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DFC20B282E654B0016068B /* LeetCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeApp.swift; sourceTree = "<group>"; };
 		F8DFC20D282E654B0016068B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 		F8DFC1FF282E654B0016068B = {
 			isa = PBXGroup;
 			children = (
+				F8BB027D2850E22000228CD7 /* SymmetricTree.swift */,
 				F851870D284CE24B004C05E8 /* AnotherProblems */,
 				F8DFC20A282E654B0016068B /* LeetCode */,
 				F8DFC21E282E65610016068B /* LeetCodeTests */,
@@ -266,6 +271,7 @@
 				F854A9082847EC5A00CC1332 /* UniqueMealsTests.swift */,
 				F854A91F2847F65A00CC1332 /* ReviewStatsTests.swift */,
 				F8518710284CE552004C05E8 /* SameTreeTests.swift */,
+				F8BB027F2850E3C000228CD7 /* SymmetricTreeTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 				F84DB2B02842A7D1008D6A19 /* BinaryTreeInorderTraversal.swift in Sources */,
 				F854A91E2847F21900CC1332 /* ReviewStats.swift in Sources */,
 				F8DFC230283001F30016068B /* TwoSum.swift in Sources */,
+				F8BB027E2850E22000228CD7 /* SymmetricTree.swift in Sources */,
 				F858A09F2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift in Sources */,
 				F858A0A32836D1410042BB70 /* RemoveElement.swift in Sources */,
 				F80FA2B2283C22C70017B005 /* sqrt(x).swift in Sources */,
@@ -413,6 +420,7 @@
 				F858A0A12836CE720042BB70 /* RemoveDuplicatesSortedArrayTests.swift in Sources */,
 				F858A0A52836D2340042BB70 /* RemoveElementTests.swift in Sources */,
 				F8DFC22B282E70980016068B /* MultiplyStringsTests.swift in Sources */,
+				F8BB02802850E3C000228CD7 /* SymmetricTreeTests.swift in Sources */,
 				F858A0B52836F3AE0042BB70 /* BinarySearchTests.swift in Sources */,
 				F873DD9F2837C7F5001D7CBE /* LengthLastWordTests.swift in Sources */,
 				F8DFC23E28301D720016068B /* LongestCommonPrefixTests.swift in Sources */,
