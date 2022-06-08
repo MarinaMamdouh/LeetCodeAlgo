@@ -19,8 +19,11 @@ class SameTreeTests: XCTestCase {
         tree2.left = TreeNode(2)
         tree2.right =  TreeNode(3)
         
-        let result = problem.isSameTree(tree1, tree2)
-        XCTAssertEqual(result, true)
+        let result1 = problem.isSameTreeDivideConquer(tree1, tree2)
+        XCTAssertEqual(result1, true)
+        
+        let result2 =  problem.isSameTreeIterative(tree1, tree2)
+        XCTAssertEqual(result2, true)
         
     
     }
@@ -30,8 +33,11 @@ class SameTreeTests: XCTestCase {
         tree1.left =  TreeNode(1)
         let tree2 = TreeNode(1)
         tree2.right = TreeNode(1)
-        let result = problem.isSameTree(tree1, tree2)
-        XCTAssertEqual(result, false)
+        let result1 = problem.isSameTreeDivideConquer(tree1, tree2)
+        XCTAssertEqual(result1, false)
+        
+        let result2 =  problem.isSameTreeIterative(tree1, tree2)
+        XCTAssertEqual(result2, false)
     }
     
     func testExample2() throws{
@@ -40,8 +46,11 @@ class SameTreeTests: XCTestCase {
         let tree2 = TreeNode(1)
         tree2.right = TreeNode(1)
         
-        let result = problem.isSameTree(tree1, tree2)
-        XCTAssertEqual(result, true)
+        let result1 = problem.isSameTreeDivideConquer(tree1, tree2)
+        XCTAssertEqual(result1, true)
+        
+        let result2 =  problem.isSameTreeIterative(tree1, tree2)
+        XCTAssertEqual(result2, true)
         
     }
 

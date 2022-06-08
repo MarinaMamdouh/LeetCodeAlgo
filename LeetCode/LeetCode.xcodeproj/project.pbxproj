@@ -188,7 +188,6 @@
 		F8DFC1FF282E654B0016068B = {
 			isa = PBXGroup;
 			children = (
-				F8BB027D2850E22000228CD7 /* SymmetricTree.swift */,
 				F851870D284CE24B004C05E8 /* AnotherProblems */,
 				F8DFC20A282E654B0016068B /* LeetCode */,
 				F8DFC21E282E65610016068B /* LeetCodeTests */,
@@ -233,6 +232,7 @@
 				F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */,
 				F84DB2AF2842A7D1008D6A19 /* BinaryTreeInorderTraversal.swift */,
 				F851870E284CE2AE004C05E8 /* SameTree.swift */,
+				F8BB027D2850E22000228CD7 /* SymmetricTree.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
