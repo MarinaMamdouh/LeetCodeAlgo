@@ -193,6 +193,78 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		F8CACA6928566ED1003F1518 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				F858A0AA2836E2620042BB70 /* SearchInsertPosition.swift */,
+				F80FA2B1283C22C70017B005 /* sqrt(x).swift */,
+				F8CACA6328565553003F1518 /* FirstBadVersion.swift */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
+		F8CACA6A28566F1E003F1518 /* Depth Search */ = {
+			isa = PBXGroup;
+			children = (
+				F851870E284CE2AE004C05E8 /* SameTree.swift */,
+				F8BB027D2850E22000228CD7 /* SymmetricTree.swift */,
+				F84DB2AF2842A7D1008D6A19 /* BinaryTreeInorderTraversal.swift */,
+				F8BB02812850EEDC00228CD7 /* MaximumDepthBinaryTree.swift */,
+			);
+			path = "Depth Search";
+			sourceTree = "<group>";
+		};
+		F8CACA6B28566F99003F1518 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB2A72841380F008D6A19 /* MajorityElement.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		F8CACA6C28566FC2003F1518 /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */,
+				F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */,
+				F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */,
+			);
+			path = "Dynamic Programming";
+			sourceTree = "<group>";
+		};
+		F8CACA6D28567002003F1518 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				F8DFC23B28300EC40016068B /* LongestCommonPrefix.swift */,
+				F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */,
+				F858A0A62836D3FD0042BB70 /* strStrMethod.swift */,
+				F873DD9C2837C664001D7CBE /* LengthLastWord.swift */,
+				F80FA2AD283C19DE0017B005 /* AddBinary.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		F8CACA6E2856707B003F1518 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				F8DFC22F283001F30016068B /* TwoSum.swift */,
+				F858A09E2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift */,
+				F858A0A22836D1410042BB70 /* RemoveElement.swift */,
+				F873DDA02837D8C9001D7CBE /* PlusOne.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		F8CACA6F285670E8003F1518 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				F8DFC226282E657F0016068B /* AddTwoNumbers.swift */,
+				F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */,
+				F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		F8DFC1FF282E654B0016068B = {
 			isa = PBXGroup;
 			children = (
@@ -215,34 +287,18 @@
 		F8DFC20A282E654B0016068B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				F8CACA6F285670E8003F1518 /* Linked List */,
+				F8CACA6E2856707B003F1518 /* Array */,
+				F8CACA6D28567002003F1518 /* String */,
+				F8CACA6C28566FC2003F1518 /* Dynamic Programming */,
+				F8CACA6B28566F99003F1518 /* Sorting */,
+				F8CACA6A28566F1E003F1518 /* Depth Search */,
+				F8CACA6928566ED1003F1518 /* Binary Search */,
 				F858A0AF2836F27C0042BB70 /* Common */,
 				F8DFC20B282E654B0016068B /* LeetCodeApp.swift */,
 				F8DFC20D282E654B0016068B /* ContentView.swift */,
-				F8DFC22F283001F30016068B /* TwoSum.swift */,
 				F8DFC23728300E020016068B /* PalindromeNumber.swift */,
-				F8DFC226282E657F0016068B /* AddTwoNumbers.swift */,
 				F8DFC228282E68EB0016068B /* MultiplyStrings.swift */,
-				F8DFC23B28300EC40016068B /* LongestCommonPrefix.swift */,
-				F85C06462832D0BA00C7C1D1 /* ValidParentheses.swift */,
-				F858A0972833AD390042BB70 /* MergeTwoSortedLists.swift */,
-				F858A09E2836CCBA0042BB70 /* RemoveDuplicatesSortedArray.swift */,
-				F858A0A22836D1410042BB70 /* RemoveElement.swift */,
-				F858A0A62836D3FD0042BB70 /* strStrMethod.swift */,
-				F858A0AA2836E2620042BB70 /* SearchInsertPosition.swift */,
-				F873DD982837B1F3001D7CBE /* MaximumSubArray.swift */,
-				F873DD9C2837C664001D7CBE /* LengthLastWord.swift */,
-				F873DDA02837D8C9001D7CBE /* PlusOne.swift */,
-				F80FA2AD283C19DE0017B005 /* AddBinary.swift */,
-				F80FA2B1283C22C70017B005 /* sqrt(x).swift */,
-				F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */,
-				F84DB2A72841380F008D6A19 /* MajorityElement.swift */,
-				F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */,
-				F84DB2AB2842A2B2008D6A19 /* Pascal's Triangle.swift */,
-				F84DB2AF2842A7D1008D6A19 /* BinaryTreeInorderTraversal.swift */,
-				F851870E284CE2AE004C05E8 /* SameTree.swift */,
-				F8BB027D2850E22000228CD7 /* SymmetricTree.swift */,
-				F8BB02812850EEDC00228CD7 /* MaximumDepthBinaryTree.swift */,
-				F8CACA6328565553003F1518 /* FirstBadVersion.swift */,
 				F8DFC20F282E654E0016068B /* Assets.xcassets */,
 				F8DFC211282E654E0016068B /* Preview Content */,
 			);
