@@ -11,6 +11,8 @@
 		F80FA2B0283C1E190017B005 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2AF283C1E190017B005 /* AddBinaryTests.swift */; };
 		F80FA2B2283C22C70017B005 /* sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2B1283C22C70017B005 /* sqrt(x).swift */; };
 		F80FA2B4283C23200017B005 /* SquareRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FA2B3283C23200017B005 /* SquareRootTests.swift */; };
+		F849ACCC2857BAF900961633 /* IntersactionTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F849ACCB2857BAF900961633 /* IntersactionTwoArrays.swift */; };
+		F849ACCE2857BF5800961633 /* IntersactionTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F849ACCD2857BF5800961633 /* IntersactionTwoArraysTests.swift */; };
 		F84DB2A628412FE5008D6A19 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */; };
 		F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A72841380F008D6A19 /* MajorityElement.swift */; };
 		F84DB2AA28413A2A008D6A19 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */; };
@@ -83,6 +85,8 @@
 		F80FA2AF283C1E190017B005 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
 		F80FA2B1283C22C70017B005 /* sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sqrt(x).swift"; sourceTree = "<group>"; };
 		F80FA2B3283C23200017B005 /* SquareRootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRootTests.swift; sourceTree = "<group>"; };
+		F849ACCB2857BAF900961633 /* IntersactionTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersactionTwoArrays.swift; sourceTree = "<group>"; };
+		F849ACCD2857BF5800961633 /* IntersactionTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersactionTwoArraysTests.swift; sourceTree = "<group>"; };
 		F84DB2A528412FE5008D6A19 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		F84DB2A72841380F008D6A19 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		F84DB2A928413A2A008D6A19 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				F80FA2B1283C22C70017B005 /* sqrt(x).swift */,
 				F8CACA6328565553003F1518 /* FirstBadVersion.swift */,
 				F8CACA70285672DA003F1518 /* BinarySearchAlgo.swift */,
+				F849ACCB2857BAF900961633 /* IntersactionTwoArrays.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				F8BB027F2850E3C000228CD7 /* SymmetricTreeTests.swift */,
 				F8BB02832850F02100228CD7 /* MaxDepthBinaryTreeTests.swift */,
 				F8CACA672856583F003F1518 /* FirstBadVersionTests.swift */,
+				F849ACCD2857BF5800961633 /* IntersactionTwoArraysTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -464,6 +470,7 @@
 				F8CACA71285672DA003F1518 /* BinarySearchAlgo.swift in Sources */,
 				F84DB2AA28413A2A008D6A19 /* ClimbingStairs.swift in Sources */,
 				F858A0A72836D3FD0042BB70 /* strStrMethod.swift in Sources */,
+				F849ACCC2857BAF900961633 /* IntersactionTwoArrays.swift in Sources */,
 				F85C06472832D0BA00C7C1D1 /* ValidParentheses.swift in Sources */,
 				F84DB2AE2842A765008D6A19 /* BinaryTree.swift in Sources */,
 				F84DB2A82841380F008D6A19 /* MajorityElement.swift in Sources */,
@@ -507,6 +514,7 @@
 				F8DFC220282E65610016068B /* AddTwoNumbersTests.swift in Sources */,
 				F854A9092847EC5A00CC1332 /* UniqueMealsTests.swift in Sources */,
 				F873DD9B2837BAA3001D7CBE /* MaxSubArrayTests.swift in Sources */,
+				F849ACCE2857BF5800961633 /* IntersactionTwoArraysTests.swift in Sources */,
 				F873DDA32837DAA7001D7CBE /* PlusOneTests.swift in Sources */,
 				F858A0AD2836E30B0042BB70 /* SearchInsertPositionTests.swift in Sources */,
 				F80FA2B4283C23200017B005 /* SquareRootTests.swift in Sources */,
